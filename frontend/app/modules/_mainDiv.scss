@@ -1,0 +1,85 @@
+
+#mainDivContainer {
+	text-align: center;
+}
+
+
+#mainDiv {
+	position: relative;
+	width: 16em;
+	height: 18em;
+	display: inline-block;
+	padding-left: -2em;
+	padding-right: 19em;
+}
+
+
+#userImg {
+	border-radius: 50%;
+    overflow: hidden;
+    width: 150px;
+    height: 150px;
+	position: absolute;
+	top: 40px;
+	left: 200px;
+    border: 4.5px solid rgb(102, 117, 127);	
+}
+
+#profileImg {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 150px;
+	height: 150px;	
+}
+
+
+#userInfo {
+	position: absolute;
+	top: 54px;
+	left: 80px;
+	text-align: center;	
+}
+
+#userNames {
+	position: absolute;
+	top: 200px;
+	left: 220px;
+	line-height: 5px;
+}
+
+
+.countHeader {
+	font-weight: 600;
+	line-height: 25px;
+	letter-spacing: 1.3px;
+	font-size: 0.9em;
+	color: rgb(102, 117, 127);
+}
+
+
+
+.countHeading {
+	font-weight: 600;
+	font-size: 1.3em;
+	color: #364954;
+}
+
+
+#nameHeading {
+	font-weight: 600;
+	font-size: 1.3em;
+	color: #364954;
+	letter-spacing: 1px;	
+	color: #364954;
+}
+
+#screenNameHeading {
+	font-weight: 400;
+	font-size: 1.1em;
+	color: #364954;
+	letter-spacing: 1px;	
+	color: rgb(102, 117, 127);
+}
+
+

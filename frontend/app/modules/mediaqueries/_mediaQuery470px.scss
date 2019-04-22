@@ -1,0 +1,38 @@
+
+@media screen and (max-width: 470px) {
+	
+
+
+	.btn-space {
+		margin: 0 10px;
+	}
+
+	#btnContainer {
+		margin-top: 2em;
+	}
+
+	.btn {
+		font-family: 'Roboto', sans-serif;
+		text-decoration: none;
+		padding: 5.33px 12px;
+		font-weight: 700;
+		font-size: 1.1rem;
+		letter-spacing: 0.9px;
+		display: inline-block;
+
+	}
+
+	.followInfo {
+		color: #4E616D;
+		font-size: 0.72em;
+		font-weight: 600;
+		letter-spacing: 1px;
+		margin-bottom: 0.9em;
+	}
+	
+	#atSymbol {
+		margin-left: -10px;
+	}
+
+
+}

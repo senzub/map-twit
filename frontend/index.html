@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Map Twit</title>
+  <link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,500,700' rel='stylesheet' type='text/css'>
+  <link rel="stylesheet" href="dist/style.css">
+</head>
+<body>
+  <div id="searchContainer">
+    <form>
+      <p id="inputLabel">Map your Twitter followers/following:</p><br>
+      <p id="atSymbol">@</p>
+      <input id="screenName" type="text" name="firstname" placeholder="Enter your screen_name..." autocomplete="off"><br>
+      <input id="submitbtn" type="submit" value="Submit">
+    </form>  
+  </div>
+  <div id="mapContainer">
+    <div class="toggle logoutonly" id="mapDescriptions"> 
+      <h3 id="currentDisplay"></h3>
+      <p id="headingOne" class="toggle logoutonly">Click on the icon to get exact locations and screen_names</p>
+    </div>
+    <div id="map" class="toggle logoutonly"></div>
+    <div id="legend" class="toggle logoutonly"><h3>Legend</h3></div>
+    <div id="locationsContainer" class="toggle logoutonly">
+      <div id="yes-locations" class="toggle logoutonly">
+        <h3 id="yes-locationsHeading">Yes Locations Given</h3>
+      </div>
+      <div id="no-locations" class="toggle logoutonly">
+        <h3 id="no-locationsHeading">No Locations Given</h3>
+      </div>
+    </div>
+  </div>
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script type="text/javascript" src="/scripts/App.js"></script>
+<script type="text/javascript" src="/markerclusterer.js"></script>
+</html>

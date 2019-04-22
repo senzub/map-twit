@@ -1,0 +1,23 @@
+
+@media screen and (max-width: 720px) {
+	.btn-space {
+		margin: 0 20px;
+	}
+
+	#btnContainer {
+		display: block;
+		text-align: center;
+		margin-bottom: 3.7em;
+	}
+
+	.btn {
+		font-family: 'Roboto', sans-serif;
+		text-decoration: none;
+		padding: 6.67px 15px;
+		font-weight: 700;
+		font-size: 1.1rem;
+		letter-spacing: 0.9px;
+		display: inline-block;
+
+	}
+}

@@ -1,0 +1,43 @@
+
+@media screen and (max-width: 321px) {
+	
+	#mainDiv {
+		width: 0em;
+	}
+
+
+	#userImg {
+	    width: 130px;
+	    height: 130px;
+	}
+
+	#profileImg {
+		width: 130px;
+		height: 130px;	
+	}
+
+
+
+	#userNames {
+		position: absolute;
+		left: 160px;
+	}
+
+	#headingOne {
+		position: absolute;
+		top: 86px;
+		left: 42px;
+	}
+
+	#currentDisplay {
+		position: absolute;
+		top: 20px;
+		left: 0px;
+	}	
+
+
+	#atSymbol {
+		margin-left: -10px;
+	}
+
+}

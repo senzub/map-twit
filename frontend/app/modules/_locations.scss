@@ -1,0 +1,65 @@
+
+#locationsContainer {
+	position: relative;
+	margin-top: 70px;
+	border: 2px solid #897286;
+	width: 100%;
+	height: 600px;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+
+	text-align: center;
+}
+
+#yes-locations {
+	width: 50%;
+	text-align: center;
+}
+
+#no-locations {
+	width: 50%;
+	text-align: center;
+}
+
+#yes-locationsHeading {
+	font-size: 1.5em;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+	color: #00A2F0;
+
+
+}
+
+#no-locationsHeading {
+	font-size: 1.5em;
+	font-weight: 600;
+	letter-spacing: 1.6px;
+	color: #00A2F0;
+
+
+}
+
+
+#ulYes {
+	text-align: left;
+	list-style-type: none;
+	list-style: none;
+
+}
+
+#ulNo {
+	text-align: left;
+	list-style-type: none;
+	list-style: none;
+}
+
+.followInfo {
+	color: #4E616D;
+	font-size: 0.9em;
+	font-weight: 600;
+	letter-spacing: 1px;
+	margin-bottom: 0.7em;
+}
+	
+
